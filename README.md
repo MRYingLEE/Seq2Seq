@@ -15,7 +15,7 @@ I am trying to divide the whole workflow as the different steps and for differen
 ## Data Explorary Analysis and Feature Engineering.<br>
   This step is for a data scientist who knows the domain data well.
   
-## Model Design pre-defined models maintaniance.<br>
+## Model Design and Pre-defined models maintaniance.<br>
   This step is for a data scientist who understands neural networks well.
   BTW, an idea of models in file format is too difficult to be implemented due to possible subclassed models. So we can only have models in code instead of an external source.
   
@@ -56,17 +56,17 @@ Some AutoML tools support tabular data source, some support 3d array with shuffl
 Some neurual network scripts support tabular one, somes do 3d one.
 
 ## Some related questions:
-Is this an autoML platform? NO!
-Are there any built-in models? Yes, but only for reference.
-Are there hyperparamerters tuning built in? Yes.
+Is this an autoML platform? NO!<br>
+Are there any built-in models? Yes, but only for reference.<br>
+Are there hyperparamerters tuning built in? Yes.<br>
 
 # Which?
 Is this a whole pipeline framework? No, I won't cover data preprocessing, which can be covered by Time-series-Preprocessing-Studio-in-Jupyter (https://github.com/MRYingLEE/Time-series-Preprocessing-Studio-in-Jupyter ）.
 
 # Technology
 1. Tensorflow+Karas as deep learning framework. 
-Tensorflow 2.x is preferred.
-Don’t mix tensorflow.keras and keras.
+Tensorflow 2.x is preferred.<br>
+Don’t mix tensorflow.keras and keras.<br>
 
 2. NNI (https://github.com/microsoft/nni ) may be used as hyperparameters tuning tools.
 3. Dataframe of Pandas instead of ndarray of Numpy will be used as basic data format. ndarray of Numpy will be used internally, but the data scientist need focus on Dataframe only.
