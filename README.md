@@ -23,12 +23,14 @@ Usually, time-series data can be categorized as:
 Technically, Pandas (2D) with chunks (series, the 3rd D ).
 
 Pros: Intuitive
+
 Cons: Not efficient
 
 ## (Anonymous) 3D Array
 Technically, NumPy array of (N_ series, n_timestamp, n_features).
 
 Pros: Efficient and Neutral to NN
+
 Cons: Not intuitive
 
 These 2 kinds of data can be converted to each other easily.
