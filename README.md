@@ -15,7 +15,7 @@ I am trying to divide the whole workflow as the different steps and for differen
 ## Data Explorary Analysis and Feature Engineering.<br>
   This step is for a data scientist who knows the domain data well.
   
-## Model Design and Pre-defined models maintaniance.<br>
+## Model Design and Pre-defined models maintenance.<br>
   This step is for a data scientist who understands neural networks well.
   BTW, an idea of models in file format is too difficult to be implemented due to possible subclassed models. So we can only have models in code instead of an external source.
   
@@ -31,7 +31,7 @@ This is a deep learning framework for time series forecasting. It uses Tensorflo
 So, no pure statistics model was covered. Technically I use deep learning model, maybe along with some statistics model as part.
 Time series (TS) data is focused. Technically 2 kinds of time-series data are supported.
 
-Logically, time-series data has the 3D shape of (N_ series, n_timestamp, n_features).
+Logically, time-series data has the 3D shape of (n_ series, n_timestamp, n_features).
 
 Usually, time-series data can be categorized as:
 ## Tabular Data Source
