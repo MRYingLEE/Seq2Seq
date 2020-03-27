@@ -10,6 +10,21 @@ I couldn't find a good framework to do so. So I decided to develop one for mysel
 
 This framework targets data scientists who wants to quickly start a time series forecasting model.
 
+I am trying to divide the whole workflow as the different steps and for different roles:
+
+## Data Explorary Analysis and Feature Engineering.<br>
+  This step is for a data scientist who knows the domain data well.
+  
+## Model Design pre-defined models maintaniance.<br>
+  This step is for a data scientist who understands neural networks well.
+  BTW, an idea of models in file format is too difficult to be implemented due to possible subclassed models. So we can only have models in code instead of an external source.
+  
+## Training and Hyperparameters Tuning.<br>
+  This step is for a data scientist who understand hyperparameter tuning well.
+  
+## Forecasting/ Inferencing or Predicting. <br>
+  This step is for an end users to use.
+  
 # What?
 
 This is a deep learning framework for time series forecasting. It uses Tensorflow+Karas as base.
