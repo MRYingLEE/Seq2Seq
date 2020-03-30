@@ -17,7 +17,7 @@ I am trying to divide the whole workflow as the different steps and for differen
   
 ## Model Design and Pre-defined models maintenance.<br>
   This step is for a data scientist who understands neural networks well.
-  BTW, an idea of models in file format is too difficult to be implemented due to possible subclassed models. So we can only have models in code instead of an external source.
+  BTW, an idea of models in file format is too difficult to be implemented due to possible subclassed models. Also, it seems data inpendent neural networks are not reasonable. So we can only have models in code instead of an external source. And maybe pre-defined models can only be used as a reference only.
   
 ## Training and Hyperparameters Tuning.<br>
   This step is for a data scientist who understand hyperparameter tuning well.
@@ -68,6 +68,8 @@ Is this a whole pipeline framework? No, I won't cover data preprocessing, which 
 Tensorflow 2.x is preferred.<br>
 Don’t mix tensorflow.keras and keras.<br>
 
-2. NNI (https://github.com/microsoft/nni ) may be used as hyperparameters tuning tools.
+2. sklearn.model_selection.GridSearchCV (https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) may be used as hyperparameters tuning tools.
+
 3. Dataframe of Pandas instead of ndarray of Numpy will be used as basic data format. ndarray of Numpy will be used internally, but the data scientist need focus on Dataframe only.
+
 4. Timeserio (https://github.com/octoenergy/timeserio ) may be used as a reference.
