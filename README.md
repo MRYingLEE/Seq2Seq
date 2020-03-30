@@ -37,7 +37,7 @@ Usually, time-series data can be categorized as:
 ## Tabular Data Source
 Technically, Pandas (2D) with chunks (series, the 3rd D ).
 
-Pros: Intuitive
+Pros: Intuitive, suitable to complicated situation
 
 Cons: Not efficient
 
@@ -46,7 +46,7 @@ Technically, NumPy array of (N_ series, n_timestamp, n_features).
 
 Pros: Efficient and Neutral to NN
 
-Cons: Not intuitive
+Cons: Not intuitive, suitable to simple situation
 
 These 2 kinds of data can be converted to each other easily.
 
